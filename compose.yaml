@@ -1,0 +1,7 @@
+services:
+  jadx:
+    build: .
+    container_name: jadx
+    volumes:
+      - .:/app
+    tty: true
